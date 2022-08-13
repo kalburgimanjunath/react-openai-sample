@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import Product from './components/Product';
 import Email from './components/Email';
 import Tweets from './components/Tweets';
-import CardGroup from './components/CardGroup';
+import APICardGroup from './components/APICardGroup';
 export default function App() {
   return (
     <div>

@@ -9,7 +9,7 @@ import {
   CardText,
   Button,
 } from 'reactstrap';
-export default function CardGroup() {
+export default function APICardGroup() {
   return (
     <CardGroup>
       <Card>
