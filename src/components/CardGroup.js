@@ -28,7 +28,7 @@ export default function CardGroup() {
             Generate Product Description with any type of text,keywords or
             phrases.
           </CardText>
-          <Button href="./product">Button</Button>
+          <Button href="./product">Generate</Button>
         </CardBody>
       </Card>
       <Card>
@@ -44,7 +44,7 @@ export default function CardGroup() {
             Generate Marketing Emails
           </CardSubtitle>
           <CardText>Generate Marketing Emails</CardText>
-          <Button href="./emails">Button</Button>
+          <Button href="./emails">Generate</Button>
         </CardBody>
       </Card>
       <Card>
@@ -64,7 +64,7 @@ export default function CardGroup() {
             natural lead-in to additional content. This card has even longer
             content than the first to show that equal height action.
           </CardText>
-          <Button href="./tweets">Button</Button>
+          <Button href="./tweets">Generate</Button>
         </CardBody>
       </Card>
     </CardGroup>
