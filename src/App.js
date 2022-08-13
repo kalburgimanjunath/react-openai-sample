@@ -14,7 +14,7 @@ export default function App() {
         <Route path="/tweets" element={<Tweets />} />
         <Route path="/emails" element={<Email />} />
         <Route path="/product" element={<Product />} />
-        <Route path="/*" element={<CardGroup />} />
+        <Route path="/*" element={<APICardGroup />} />
       </Routes>
     </div>
   );
