@@ -22,7 +22,7 @@ function Navigation(args) {
   return (
     <div>
       <Navbar {...args}>
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <NavbarBrand href="/">Search Hub</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="me-auto" navbar>
