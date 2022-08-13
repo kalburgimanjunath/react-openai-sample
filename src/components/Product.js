@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Form, FormGroup, Label, Input, Button } from 'reactstrap';
 const { Configuration, OpenAIApi } = require('openai');
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: 'sess-bnCUhjCE7M68zsfvbJcHkJ845HYYwazsdloLpP3k',
 });
 const openai = new OpenAIApi(configuration);
 export default function Product() {
