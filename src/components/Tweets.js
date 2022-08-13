@@ -13,7 +13,7 @@ export default function Tweets() {
       apiKey: 'sess-bnCUhjCE7M68zsfvbJcHkJ845HYYwazsdloLpP3k',
     });
     const openai = new OpenAIApi(configuration);
-    const response = openai
+    openai
       .createCompletion({
         model: 'text-davinci-002',
         prompt: 'generate hello world alternative',
@@ -24,12 +24,10 @@ export default function Tweets() {
         presence_penalty: 0,
       })
       .then((res) => {
-        // res.json();
         setResponse(res.data.choices[0].text);
       });
-    // console.log(data);
     setHeading(`AI product description suggesstion form : ${data.productName}`);
-    // setResponse(`The response will be shown here:`);
+    setResponse(`The response will be shown here: ...wait for the response`);
   };
   return (
     <div>

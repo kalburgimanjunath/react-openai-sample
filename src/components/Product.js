@@ -26,10 +26,14 @@ export default function Product() {
       .then((res) => {
         // res.json();
         setResponse(res.data.choices[0].text);
+      })
+      .catch((error) => {
+        console.log(error);
+        setResponse(error.message);
       });
     // console.log(data);
     setHeading(`AI product description suggesstion form : ${data.productName}`);
-    // setResponse(`The response will be shown here:`);
+    setResponse(`The response will be shown here:`);
   };
   return (
     <div>
